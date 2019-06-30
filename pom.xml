@@ -212,6 +212,14 @@
     <tag>HEAD</tag>
     <url>http://github.com/jleetutorial/maven-project</url>
   </scm>
+         
+ <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-47-229-releases</name>
+        <url>http://13.59.40.199:8081/artifactory/ext-release-local</url>
+    </repository>
+</distributionManagement>
 
   <prerequisites>
     <maven>3.0.3</maven>
